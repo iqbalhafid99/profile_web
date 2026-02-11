@@ -16,7 +16,7 @@ const Skills = () => {
           width={1530}
           height={500}
           priority
-          className="w-[90%] max-w-[1500px] h-auto"
+          className="w-[90%] max-w-375 h-auto"
         />
       </div>
 
@@ -29,7 +29,7 @@ const Skills = () => {
         </div>
       </FadeUp>
       <FadeUp>
-        <div className="mb-28 md:mt-32 mt-16 w-[90%] h-auto lg:h-[500px] rounded-3xl mx-auto border shadow-lg flex items-center justify-center">
+        <div className="mb-28 md:mt-32 mt-16 w-[90%] h-auto lg:h-125 rounded-3xl mx-auto border shadow-lg flex items-center justify-center">
           <div className="m-10 mx-auto flex flex-wrap gap-28 items-center justify-center">
             <div className="md:w-1/4 mx-auto md:mx-0 w-[80%]">
               <SlideIn delay={0.6}>
@@ -49,10 +49,10 @@ const Skills = () => {
                     />
                   </motion.div>
                 </div>
-                <div className=" mx-auto md:mx-0 w-full rounded-full h-[5px] bg-black flex items-center  ">
+                <div className=" mx-auto md:mx-0 w-full rounded-full h-1.25 bg-black flex items-center  ">
                   <motion.div
                     className="w-8 h-8 rounded-full bg-[#FD5956] shadow-md shadow-[#FD5956]"
-                    animate={{ x: "900%" }}
+                    animate={{ x: "700%" }}
                     transition={{
                       type: "spring",
                       duration: 2,
@@ -81,7 +81,7 @@ const Skills = () => {
                     />
                   </motion.div>
                 </div>
-                <div className=" mx-auto md:mx-0 w-full rounded-full h-[5px] bg-black flex items-center ">
+                <div className=" mx-auto md:mx-0 w-full rounded-full h-1.25 bg-black flex items-center ">
                   <motion.div
                     className="w-8 h-8 rounded-full bg-[#FD5956] shadow-md shadow-[#FD5956]"
                     animate={{ x: "600%" }}
@@ -113,10 +113,10 @@ const Skills = () => {
                     />
                   </motion.div>
                 </div>
-                <div className=" mx-auto md:mx-0 w-full rounded-full h-[5px] bg-black flex items-center ">
+                <div className=" mx-auto md:mx-0 w-full rounded-full h-1.25 bg-black flex items-center ">
                   <motion.div
                     className="w-8 h-8 rounded-full bg-[#FD5956] shadow-md shadow-[#FD5956]"
-                    animate={{ x: "700%" }}
+                    animate={{ x: "600%" }}
                     transition={{
                       type: "spring",
                       duration: 2,
@@ -145,7 +145,7 @@ const Skills = () => {
                     />
                   </motion.div>
                 </div>
-                <div className=" mx-auto md:mx-0 w-full rounded-full h-[5px] bg-black flex items-center">
+                <div className=" mx-auto md:mx-0 w-full rounded-full h-1.25 bg-black flex items-center">
                   <motion.div
                     className="w-8 h-8 rounded-full bg-[#FD5956] shadow-md shadow-[#FD5956]"
                     animate={{ x: "600%" }}
@@ -177,7 +177,7 @@ const Skills = () => {
                     />
                   </motion.div>
                 </div>
-                <div className=" mx-auto md:mx-0 w-full rounded-full h-[5px] bg-black flex items-center">
+                <div className=" mx-auto md:mx-0 w-full rounded-full h-1.25 bg-black flex items-center">
                   <motion.div
                     className="w-8 h-8 rounded-full bg-[#FD5956] shadow-md shadow-[#FD5956]"
                     animate={{ x: "500%" }}
@@ -209,7 +209,7 @@ const Skills = () => {
                     />
                   </motion.div>
                 </div>
-                <div className=" mx-auto md:mx-0 w-full rounded-full h-[5px] bg-black flex items-center">
+                <div className=" mx-auto md:mx-0 w-full rounded-full h-1.25 bg-black flex items-center">
                   <motion.div
                     className="w-8 h-8 rounded-full bg-[#FD5956] shadow-md shadow-[#FD5956]"
                     animate={{ x: "500%" }}

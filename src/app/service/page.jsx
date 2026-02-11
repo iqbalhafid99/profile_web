@@ -33,19 +33,19 @@ const Service = () => {
               Services<span className="font-mono text-[#FD5956]">.</span>
             </h1>
             <p className="mt-6 text-sm">
-              Layanan profesional untuk membantu bisnis anda <br /> untuk tampil
-              lebih modern, kredibel, dan kompetitif di dunia digital.
+              Professional services to help your business <br /> appear more
+              modern, credible and competitive in the digital world.
             </p>
           </div>
         </FadeUp>
         <div className="hidden md:flex flex-wrap items-center gap-10 justify-center md:mt-20">
           <FadeUp delay={0.6}>
             <div className="hover-3d">
-              <div className="md:w-[350px] md:h-[450px] rounded-3xl shadow-xl border relative">
+              <div className="md:w-87.5 md:h-112.5 rounded-3xl shadow-xl border relative">
                 <div className="flex gap-3 absolute top-6 right-6">
-                  <div className="w-[25px] h-[25px] bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
-                  <div className="w-[25px] h-[25px] bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
-                  <div className="w-[25px] h-[25px] bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
+                  <div className="w-6.25 h-6.25 bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
+                  <div className="w-6.25 h-6.25 bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
+                  <div className="w-6.25 h-6.25 bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
                 </div>
                 <div>
                   <Image
@@ -60,8 +60,8 @@ const Service = () => {
                 <div className="px-8 mt-6">
                   <h1 className="text-3xl font-bold">Web Development</h1>
                   <p className="text-xl mt-3">
-                    Mengembangkan website cepat, responsif, dan SEO friendly
-                    menggunakan teknologi terbaru.
+                    Develop fast, responsive and SEO friendly websites using the
+                    latest technology.
                   </p>
                 </div>
               </div>
@@ -77,11 +77,11 @@ const Service = () => {
           </FadeUp>
           <FadeUp delay={0.7}>
             <div className="hover-3d">
-              <div className="md:w-[350px] md:h-[450px] rounded-3xl shadow-xl border relative ">
+              <div className="md:w-87.5 md:h-112.5 rounded-3xl shadow-xl border relative ">
                 <div className="flex gap-3 absolute top-6 right-6">
-                  <div className="w-[25px] h-[25px] bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
-                  <div className="w-[25px] h-[25px] bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
-                  <div className="w-[25px] h-[25px] bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
+                  <div className="w-6.25 h-6.25 bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
+                  <div className="w-6.25 h-6.25 bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
+                  <div className="w-6.25 h-6.25 bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
                 </div>
                 <div>
                   <Image
@@ -99,8 +99,8 @@ const Service = () => {
                     UI/UX <br /> Design
                   </h1>
                   <p className="text-xl mt-3">
-                    Mendesain tampilan website yang modern agar pengunjung
-                    nyaman dan betah.
+                    Design a modern website appearance so that visitors are
+                    comfortable and at home.
                   </p>
                 </div>
               </div>
@@ -116,11 +116,11 @@ const Service = () => {
           </FadeUp>
           <FadeUp delay={0.9}>
             <div className="hover-3d">
-              <div className="md:w-[350px] md:h-[450px] rounded-3xl shadow-xl border relative ">
+              <div className="md:w-87.5 md:h-112.5 rounded-3xl shadow-xl border relative ">
                 <div className="flex gap-3 absolute top-6 right-6">
-                  <div className="w-[25px] h-[25px] bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
-                  <div className="w-[25px] h-[25px] bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
-                  <div className="w-[25px] h-[25px] bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
+                  <div className="w-6.25 h-6.25 bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
+                  <div className="w-6.25 h-6.25 bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
+                  <div className="w-6.25 h-6.25 bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
                 </div>
                 <div>
                   <Image
@@ -135,8 +135,8 @@ const Service = () => {
                 <div className="px-8 mt-6">
                   <h1 className="text-3xl font-bold">Maintenance & Support</h1>
                   <p className="text-xl mt-3">
-                    Perawatan website, update fitur, optimasi performa, dan
-                    perbaikan bug secara berkala.
+                    Website maintenance, feature updates, performance
+                    optimization and regular bug fixes.
                   </p>
                 </div>
               </div>
@@ -161,11 +161,11 @@ const Service = () => {
           >
             <SwiperSlide className="rounded-3xl shadow-sm border">
               <FadeUp delay={0.4}>
-                <div className="w-[250px] h-[350px]">
+                <div className="w-62.5 h-87.5">
                   <div className="flex gap-3 absolute top-4 right-4">
-                    <div className="w-[18px] h-[18px] bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
-                    <div className="w-[18px] h-[18px] bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
-                    <div className="w-[18px] h-[18px] bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
+                    <div className="w-4.5 h-4.5 bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
+                    <div className="w-4.5 h-4.5 bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
+                    <div className="w-4.5 h-4.5 bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
                   </div>
                   <div>
                     <Image
@@ -178,10 +178,10 @@ const Service = () => {
                     />
                   </div>
                   <div className="px-8 mt-3">
-                    <h1 className="text-xl font-bold">UI/UX Design</h1>
+                    <h1 className="text-xl font-bold">Web Development</h1>
                     <p className="text-sm mt-2">
-                      Why moneys in that office, right If she start giving me
-                      some bullshit about it aint there someplace or anywhere.
+                      Develop fast, responsive and SEO friendly websites using
+                      the latest technology.
                     </p>
                   </div>
                 </div>
@@ -189,15 +189,15 @@ const Service = () => {
             </SwiperSlide>
             <SwiperSlide className="rounded-3xl shadow-sm border">
               <FadeUp delay={0.4}>
-                <div className="w-[250px] h-[350px]">
+                <div className="w-62.5 h-87.5">
                   <div className="flex gap-3 absolute top-4 right-4">
-                    <div className="w-[18px] h-[18px] bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
-                    <div className="w-[18px] h-[18px] bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
-                    <div className="w-[18px] h-[18px] bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
+                    <div className="w-4.5 h-4.5 bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
+                    <div className="w-4.5 h-4.5 bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
+                    <div className="w-4.5 h-4.5 bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
                   </div>
                   <div>
                     <Image
-                      src="/assets/images/uiux.png"
+                      src="/assets/images/desain.png"
                       alt="Logo"
                       width={65}
                       height={65}
@@ -208,8 +208,8 @@ const Service = () => {
                   <div className="px-8 mt-3">
                     <h1 className="text-xl font-bold">UI/UX Design</h1>
                     <p className="text-sm mt-2">
-                      Why moneys in that office, right If she start giving me
-                      some bullshit about it aint there someplace or anywhere.
+                      Design a modern website appearance so that visitors are
+                      comfortable and at home.
                     </p>
                   </div>
                 </div>
@@ -217,15 +217,15 @@ const Service = () => {
             </SwiperSlide>
             <SwiperSlide className="rounded-3xl shadow-sm border">
               <FadeUp delay={0.4}>
-                <div className="w-[250px] h-[350px]">
+                <div className="w-62.5 h-87.5">
                   <div className="flex gap-3 absolute top-4 right-4">
-                    <div className="w-[18px] h-[18px] bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
-                    <div className="w-[18px] h-[18px] bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
-                    <div className="w-[18px] h-[18px] bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
+                    <div className="w-4.5 h-4.5 bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
+                    <div className="w-4.5 h-4.5 bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
+                    <div className="w-4.5 h-4.5 bg-[#FD5956] rounded-full shadow-md shadow-[#FD5956]"></div>
                   </div>
                   <div>
                     <Image
-                      src="/assets/images/uiux.png"
+                      src="/assets/images/develop.png"
                       alt="Logo"
                       width={65}
                       height={65}
@@ -234,10 +234,10 @@ const Service = () => {
                     />
                   </div>
                   <div className="px-8 mt-3">
-                    <h1 className="text-xl font-bold">UI/UX Design</h1>
+                    <h1 className="text-xl font-bold">Maintenance & Support</h1>
                     <p className="text-sm mt-2">
-                      Why moneys in that office, right If she start giving me
-                      some bullshit about it aint there someplace or anywhere.
+                      Website maintenance, feature updates, performance
+                      optimization and regular bug fixes.
                     </p>
                   </div>
                 </div>

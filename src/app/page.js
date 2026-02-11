@@ -14,7 +14,7 @@ export default function Home() {
           width={1920}
           height={424}
           priority={true}
-          className="w-auto h-auto -z-10 absolute md:top-[300px] top-[200px]"
+          className="w-auto h-auto -z-10 absolute md:top-75 top-50"
         />
       </div>
       <div className="mx-8 md:mx-20 mt-2 flex lg:flex-row-reverse lg:mt-0 lg:gap-52 md:mt-32 flex-col items-center md:justify-center">
@@ -36,25 +36,26 @@ export default function Home() {
               <h3 className="text-black font-semibold text-2xl">Hello! I am</h3>
             </FadeUp>
             <FadeUp delay={0.8}>
-              <h2 className="text-[#FD5956] font-[600] text-3xl my-8">
+              <h2 className="text-[#FD5956] font-semibold text-3xl my-8">
                 <TypeWriter text="Moh Iqbal Hafid" />
               </h2>
             </FadeUp>
             <FadeUp delay={0.9}>
               <div className="relative -z-10">
-                <h1 className="text-[#8f8f8f] font-[800] text-6xl md:text-8xl mt-4">
+                <h1 className="text-[#8f8f8f] font-extrabold text-6xl md:text-8xl mt-4">
                   Web <br />
                   Developer
                 </h1>
-                <h1 className="text-[#FD5956] font-[800] text-6xl absolute -top-[19px] left-[2px] md:text-8xl mt-4">
+                <h1 className="text-[#FD5956] font-extrabold text-6xl absolute -top-4.75 left-0.5 md:text-8xl mt-4">
                   Web <br />
                   Developer
                 </h1>
               </div>
-              <p className="mt-4 text-[#8f8f8f]">
-                Since creative designers often interact with <br /> creative
-                teams, managers and clients, <br /> they need strong
-                communication skills.
+              <p className="my-8 text-[#8f8f8f]">
+                I am a web developer <br /> with a passion for creating
+                beautiful and functional websites. <br /> I have experience with
+                a variety of web technologies, <br /> including React, Express
+                Js, Next JS, and React Native.
               </p>
             </FadeUp>
             <FadeUp delay={1}>
