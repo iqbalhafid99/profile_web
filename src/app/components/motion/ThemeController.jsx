@@ -22,12 +22,12 @@ const ThemeController = () => {
   }, []);
 
   return (
-    <div className="fixed bottom-6 right-6 z-50">
+    <div className="fixed bottom-6 right-6 z-9999 pointer-events-auto">
       <div className="fab fab-end fab-bottom gap-3">
         {/* Toggle Button */}
         <button
           onClick={() => setOpen(!open)}
-          className="btn btn-lg btn-circle bg-[#FD5956] shadow-lg hover:scale-110 transition"
+          className="btn btn-lg touch-manipulation btn-circle bg-[#FD5956] shadow-lg hover:scale-110 transition"
         >
           🎨
         </button>
@@ -43,7 +43,7 @@ const ThemeController = () => {
           {themes.map((t) => (
             <button
               key={t.name}
-              className="btn btn-lg btn-circle shadow-md"
+              className="btn btn-lg touch-manipulation btn-circle shadow-md"
               data-theme={t.name}
               aria-label={t.name}
               onClick={() => {

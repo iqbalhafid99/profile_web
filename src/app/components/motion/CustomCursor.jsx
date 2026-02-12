@@ -1,18 +1,8 @@
 "use client";
 
 import { Cursor } from "motion-plus/react";
-import { useEffect, useState } from "react";
 
 const CustomCursor = () => {
-  const [enabled, setEnabled] = useState(false);
-
-  useEffect(() => {
-    const isTouch = window.matchMedia("(pointer: coarse)").matches;
-    setEnabled(!isTouch);
-  }, []);
-
-  if (!enabled) return null;
-
   return (
     <Cursor
       style={{

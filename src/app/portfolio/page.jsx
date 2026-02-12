@@ -4,6 +4,7 @@ import React from "react";
 import Image from "next/image";
 import FadeUp from "../components/motion/FadeUp";
 import Link from "next/link";
+import { useState } from "react";
 
 const projects = [
   {
@@ -41,6 +42,8 @@ const projects = [
 ];
 
 const Portfolio = () => {
+  const [active, setActive] = useState(null);
+
   const container = {
     hidden: {},
     show: {
@@ -81,7 +84,8 @@ const Portfolio = () => {
             key={i}
             variants={item}
             whileHover={{ y: -10 }}
-            className="group rounded-3xl overflow-hidden shadow-xl bg-[#FD5956] border"
+            onClick={() => setActive(active === i ? null : i)}
+            className="group rounded-3xl overflow-hidden shadow-xl bg-[#FD5956] border cursor-pointer"
           >
             <div className="relative overflow-hidden ">
               <Image
@@ -92,7 +96,9 @@ const Portfolio = () => {
                 className="group-hover:scale-110 duration-500"
               />
 
-              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 duration-300 flex flex-col items-center justify-center gap-4">
+              <div
+                className={`absolute inset-0 bg-black/60 flex flex-col items-center justify-center gap-4 transition-all duration-300 ${active === i ? "opacity-100" : "opacity-0 group-hover:opacity-100"}`}
+              >
                 <Link
                   href={p.demo}
                   target="_blank"
